@@ -1,0 +1,15 @@
+bin/
+target/
+mdeo-results/
+xtend-gen/
+runs/
+*.java._trace
+*.xtendbin
+.project
+.settings/
+.classpath
+analysis/
+*.aux
+*.bbl
+*.blg
+*.log
