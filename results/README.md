@@ -1,7 +1,7 @@
 # Explanation of collected data
 
 ## Archive file
-A 7z archive file can be found in the release section of the Github repository. It contains the raw output data of MDEOptimiser for all experiments. Despite its rather small size the extracted data needs about a gigabyte of disk space.
+A 7z archive file can be found in the [release section](https://github.com/Leative/MDEIntelligence22-MDO-crossover-evaluation/releases/tag/v1.0.0) of the Github repository. It contains the raw output data of MDEOptimiser for all experiments. Despite its rather small size the extracted data needs about a gigabyte of disk space.
 In the archive, for each evolutionary computation (called **batch**) a file `batch-\<batchNumber\>-data-steps.csv` is provided containing data about the elapsed time, the population and the non-dominated solutions of each iteration of the batch.
 A file `**batch-\<batchNumber\>-outcome.txt` contains a summary including more information about the non-dominated solutions of the last iteration. Note that correctly tracking data about parent mutation steps and transformation chains in the presence of crossover has not yet been implemented; thus, the tracked data is invalid.
 
