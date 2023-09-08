@@ -8,6 +8,8 @@ A precompiled version of the optimzation tool MDEOptimiser with integrated cross
 The detailed results of the experiments of the evaluation of the paper can be found in folder `results`.
 More information about the results can be found in the `README` contained in that folder.
 
+Note that the raw data generated during the experiments is attached as an archive to the tag 1.0.0 on Github and can be downloaded there.
+
 ## Usecase
 All artifacts of the use case (CRA case) are located in the folder `usecases/CRA`. 
 The subfolder `models` contains the EMF meta-model, the instance models and the Henshin model transformations used as mutation and repair operators.
